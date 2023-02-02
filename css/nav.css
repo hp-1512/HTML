@@ -1,0 +1,60 @@
+.navbar-dashboard {
+    display: flex;
+    background-color: #fff;
+    min-width: 100%;
+    width: 100%;
+    gap: 4rem;
+    padding: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 10vh;
+
+}
+
+.menu-logo--div {
+    display: flex;
+    gap: 15%;
+    width: 14%;
+
+
+}
+
+#menu-icon{
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    width: 63%;
+    align-items: center;
+
+}
+
+#search-icon {
+    width: 16px;
+    height: 16px;
+
+}
+
+#search-input {
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+
+
+}
+
+.right-navigation {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 15%;
+}
+
+.navigation-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

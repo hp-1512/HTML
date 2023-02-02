@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/intnerpage-style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Innerpage</title>
+</head>
+
+<body>
+    <div>
+        <!-- Navigation bar  -->
+
+
+        <nav class="navbar-dashboard">
+
+            <div class="menu-logo--div">
+                <img src="images/menu-bar.svg" id="menu-icon" />
+                <img src="images/header-logo.svg" id="header-logo" />
+            </div>
+
+
+
+            <div class="search-box">
+                <img src="images/search-icon.svg" id="search-icon" />
+                <input type="search" name="search" id="search-input" placeholder="Search" />
+            </div>
+
+
+            <div class="right-navigation">
+                <img src="images/notification-icon.svg" id="notification-icon" />
+
+
+                <div class="navigation-profile">
+                    <img src="images/profile.png" id="profile-icon" />
+                    <span>John Doe</span>
+                    <img src="images/downward-arrow.svg" id="down-arrow" />
+                </div>
+            </div>
+
+            <img src="images/downward-arrow.svg" id="close-arrow">
+        </nav>
+
+        <!-- Navigation bar  -->
+        <div class="container-fluid well" id="home" style="display:block; padding-top:60px;">
+            <div class="row">
+                <div class="col-lg-2 dashboard-sidebar-toggle" id="side-bar" style="background-color: #fff;">
+                    <div class="sidebar" >
+                        <div class="sidebar-detail dashbord-sidebar-detail dashboard-active-tab d-flex">
+                            <img src="images/dashboard-active.svg" alt="" class="dashboard-active sidebarimg">
+                            <div class="">Dashboard</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/graph-default.svg" alt="" class="graph-default sidebarimg ">
+                            <div class="">Analysis</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/inbox-default.svg" alt="" class="inbox-default sidebarimg ">
+                            <div class="">Inbox</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/clock-default.svg" alt="" class="clock-default sidebarimg ">
+                            <div class="">History</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/user-default.svg" alt="" class="user-default sidebarimg ">
+                            <div class="">Users</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/maintenance-default.svg" alt="" class="maintenance-default sidebarimg ">
+                            <div class="">Maintenance</div>
+                        </div>
+                        <div class="sidebar-detail d-flex">
+                            <img src="images/setting-default.svg" alt="" class="setting-default sidebarimg ">
+                            <div class="">Setting</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <h3>Analysis</h3>
+                    <br>
+                    <form action="">
+                        <div id="first-col">
+                            <h3>One Column</h3>
+                            <div class="input-block">
+                                <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                <span class="placeholder">
+                                  Placeholder
+                                </span>
+                            </div>
+                            <select id="drop-down" name="Dropdown">
+                                <option>Dropdown</option>
+                            </select>
+                            <textarea name="multiple-line" id="" placeholder="Multiple line"></textarea>
+                        </div>
+                        <div id="second-col">
+                            <h3>Two Column</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-block">
+                                        <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                        <span class="placeholder">
+                                          Name
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-block">
+                                        <input type="text" name="input-text" value="johndoe" class="input-text" required spellcheck="false">
+                                        <span class="placeholder">
+                                          Username
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-block">
+                                        <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                        <span class="placeholder">
+                                          Password
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-control" name="Dropdown">
+                                        <option>Dropdown</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="third-col">
+                                <h3>Three Column</h3>
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                        <div class="input-block w-100">
+                                            <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                            <span class="placeholder">
+                                              Focus
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                        <div class="input-block w-100">
+                                            <input type="password" name="input-text" value="adhsdkd" class="input-text" required spellcheck="false">
+                                            <span class="placeholder">
+                                              Password
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                        <div class="input-block w-100">
+                                            <input type="text" name="input-text" disabled class="input-text" value="johndoe" required spellcheck="false" style="border: 1px dashed #ADADAD; color: #ADADAD;">
+                                            <span class="placeholder-disabled" style="color: #ADADAD;">
+                                            <span class="placeholder" style="background-color: #fff;">
+                                              Disable
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="fourth-col">
+                                <h3>Four Column</h3>
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                        <div class="input-block">
+                                            <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                            <span class="placeholder">
+                                              Designation
+                                            </span>
+                                        </div>
+                                        <small id="en-va-da">Enter Valid data</small>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                        <div class="input-block">
+                                            <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                            <span class="placeholder">
+                                              Name
+                                            </span>
+                                        </div>
+                                        <small>Enter your full Name as per ID</small>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                        <div class="input-block">
+                                            <input type="text" name="input-text" class="input-text" required spellcheck="false">
+                                            <span class="placeholder">
+                                              Username
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                        <select class="form-control" name="Dropdown">
+                                            <option>Dropdown</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="validate">
+
+
+                                </div>
+                            </div>
+                            <div id="other-col">
+                                <h3>Other Design Elements</h3>
+                                <div id="file-upload">
+                                    <h4>File Upload</h4>
+                                    <div>
+                                        <button>
+                                            <img src="images/cloud-upload-icon.svg" alt="">
+                                            <p>Upload</p>
+                                        </button>
+                                        <p>No item Selected</p>
+                                    </div>
+                                </div>
+                                <div id="radio-btns">
+                                    <h4>Radio Button</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <input type="radio" name="options"><span>Option 1</span>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="radio" name="options"><span>Option 2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="checkbox">
+                                    <h4>Checkbox</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <input type="checkbox" name="" id=""><span>Option 1</span>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <input type="checkbox" name="" id=""><span>Option 2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="snackbar">
+                                    <h4>Snackbar</h4>
+                                    <div>
+                                        <span id="error">
+                                            <img class="msg-icon" src="images/error-icon.svg" alt="">
+                                            <p>This is an error message!</p>
+                                        </span>
+                                        <span id="info">
+                                            <img class="msg-icon" src="images/info-icon.svg" alt="">
+                                            <p>This is an information message!</p>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span id="warning">
+                                            <img class="msg-icon" src="images/warning-icon.svg" alt="">
+                                            <p>This is a warning message!</p>
+                                        </span>
+                                        <span id="success">
+                                            <img class="msg-icon" src="images/success-icon.svg" alt="">
+                                            <p>This is a success message!</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div id="cta">
+                                    <h4>Call to action</h4>
+                                    <div>
+                                        <button id="primary-btn">
+                                            <p>Primary</p>
+                                        </button>
+                                        <button id="second-btn">
+                                            <p>Secondary</p>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="tab">
+                                    <h4>Tabs</h4>
+                                    <div>
+                                        <ul>
+                                            <li>Tab 1</li>
+                                            <li>Tab 2</li>
+                                            <li>Tab 3</li>
+                                            <span id="red-line"></span>
+                                        </ul>
+
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum
+                                        has
+                                        been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer
+                                        took a
+                                        galley of type and scrambled it to make a type specimen book. It has survived
+                                        not only
+                                        five
+                                        centuries, but also the leap into electronic typesetting, remaining essentially
+                                        unchanged.
+                                        It was popularised in the 1960s with the release of Letraset sheets containing
+                                    </p>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        const menuBar = document.getElementById("side-bar");
+        const menuButton = document.getElementById("menu-icon");
+        
+        menuButton.onclick = function () {
+          if (menuBar.style.display !== "none") {
+            menuBar.style.display = "none";
+          } else {
+            menuBar.style.display = "block";
+          }
+        };
+    </script>
+        
+</body>
+
+</html>
